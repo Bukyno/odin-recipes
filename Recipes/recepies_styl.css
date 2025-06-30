@@ -1,0 +1,81 @@
+/* Reset a základní nastavení */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #fffdf6, #f4e9d8);
+  color: #333;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Odkaz zpět */
+a {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: #c0392b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Nadpisy */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #d35400;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #7f8c8d;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 0.3rem;
+}
+
+/* Obrázek */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+/* Seznamy */
+ul, ol {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Pár typografických bonusů */
+p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Responsivita */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
